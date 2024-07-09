@@ -1,6 +1,6 @@
 // movie.repository.ts
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { Movie } from './movies.interface'; // Ensure correct import path
+import { Movie } from './movies.interface'; 
 
 
 export class MovieRepository {

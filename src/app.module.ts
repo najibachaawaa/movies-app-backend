@@ -1,9 +1,11 @@
 import { Module } from '@nestjs/common';
-import { MoviesModule } from './movies/movies.module'; // Adjust path as necessary
-
+import { MoviesModule } from './movies/movies.module'; 
+import { AuthModule } from './auth/auth.module';
 @Module({
   imports: [
-    MoviesModule, // Import MoviesModule or other modules needed by your app
+    MoviesModule,
+    AuthModule,
+     
   ],
 })
 export class AppModule {}
